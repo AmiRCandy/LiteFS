@@ -21,7 +21,7 @@
 
 ## **Installation**
 
-You can install `LiteFS` by cloning the repository or by downloading the source code directly.
+You can install `LiteFS` by cloning the repository or by downloading the source code directly. ( Composer is avalible , install by : ```bash composer require amircandy/litefs ```)
 
 ### **Clone the repository**
 
@@ -153,16 +153,6 @@ Deletes multiple files in one call.
 ## **To-Do List for LiteFS Development**
 
 ---
-
-### **General Tasks**
-
-- [ ] **Test all methods** to ensure they work across different PHP versions (5.3+).
-- [ ] **Write Unit Tests** using PHPUnit.
-- [ ] **Write integration tests** for multi-step operations like copying directories and moving files.
-- [ ] **Code Review** - Ensure all code is optimized for performance and readability.
-
----
-
 ### **Features to Add**
 
 - [ ] **Add support for file permissions** (read/write/execute).
@@ -172,16 +162,6 @@ Deletes multiple files in one call.
 - [ ] **Add file compression (zip/gzip)** and decompression support.
 - [ ] **Support for file timestamps** (last modified, creation date).
 - [ ] **Support for file ownership**.
-
----
-
-### **Documentation & Release**
-
-- [ ] **Update README** with more examples.
-- [ ] **Publish documentation** to a static site or include in GitHub Pages.
-- [ ] **Prepare GitHub Release** and version tags.
-- [ ] **Publish to Packagist** for Composer installation.
-- [ ] **Add a License** to the repository (MIT/Apache 2.0).
 
 ---
 
