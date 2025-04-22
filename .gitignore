@@ -1,0 +1,5 @@
+vendor/
+logs/
+logs.zip
+testdir/
+unzipped_logs/

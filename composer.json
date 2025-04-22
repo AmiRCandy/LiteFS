@@ -1,0 +1,15 @@
+{
+    "name": "AmiRCandy/LiteFS",
+    "description": "LiteFS - Lightweight PHP File Manager Library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "FileManager\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    }
+  }
+  
