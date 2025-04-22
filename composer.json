@@ -1,15 +1,26 @@
 {
-    "name": "AmiRCandy/LiteFS",
-    "description": "LiteFS - Lightweight PHP File Manager Library",
+    "name": "amircandy/litefs",
+    "description": "LiteFS is a lightweight, fast, and easy-to-use PHP file system manager library.",
+    "keywords": ["filesystem", "file-manager", "php", "lite", "file", "directory"],
     "type": "library",
     "license": "MIT",
-    "autoload": {
-      "psr-4": {
-        "FileManager\\": "src/"
-      }
-    },
+    "authors": [
+        {
+            "name": "AmiRCandy",
+            "email": "amirhosen.1385.cmo@gmail.com"
+        }
+    ],
     "require": {
-      "php": ">=7.4"
-    }
-  }
-  
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "LiteFS\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
