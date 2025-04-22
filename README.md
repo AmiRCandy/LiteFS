@@ -21,7 +21,7 @@
 
 ## **Installation**
 
-You can install `LiteFS` by cloning the repository or by downloading the source code directly. ( Composer is avalible , install by : ```bash composer require amircandy/litefs ```)
+You can install `LiteFS` by cloning the repository or by downloading the source code directly. ( Composer is avalible , install by : ```composer require amircandy/litefs```)
 
 ### **Clone the repository**
 
